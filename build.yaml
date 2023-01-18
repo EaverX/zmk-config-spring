@@ -13,10 +13,5 @@
 #
 ---
 include:
-  - board: spring
-include:
-  - board: spring
-include:
-  - board: spring
-include:
-  - board: spring
+  - board: nice_nano_v2
+    shield: spring
