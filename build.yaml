@@ -13,10 +13,10 @@
 #
 ---
 include:
-  - board: nice60
+  - board: spring
 include:
-  - board: nice60
+  - board: spring
 include:
-  - board: nice60
+  - board: spring
 include:
-  - board: nice60
+  - board: spring

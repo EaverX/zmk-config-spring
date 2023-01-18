@@ -1,0 +1,6 @@
+if SHIELD_SPRING
+
+config ZMK_KEYBOARD_NAME
+    default "spring"
+
+endif
