@@ -13,5 +13,5 @@
 #
 ---
 include:
-  - board: nrfmicro_14
+  - board: nrfmicro_13
     shield: spring
