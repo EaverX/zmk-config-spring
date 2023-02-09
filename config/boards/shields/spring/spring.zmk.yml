@@ -1,0 +1,8 @@
+file_format: "1"
+id: spring
+name: spring
+type: shield
+url: https://github.com/EaverX/zmk-config-spring
+requires: [pro_micro]
+features:
+  - keys
