@@ -13,5 +13,5 @@
 #
 ---
 include:
-  - board: nice_nano_v2
+  - board: nrfmicro_14
     shield: spring
