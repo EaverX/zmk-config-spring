@@ -10,6 +10,6 @@ config ZMK_USB
 if SHIELD_SPRING
 
 config ZMK_KEYBOARD_NAME
-    default "W-Spring"
+    default "Spring-Wireless"
 
 endif
