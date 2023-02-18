@@ -58,9 +58,9 @@
 			<&gpio1 13 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
 			<&gpio0 2  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
 			<&gpio0 29 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
-			<&gpio0 31 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+			<&gpio0 31 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
             <&gpio0 30 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-
+            ;
     };
 
     // default_transform: keymap_transform_0 {
