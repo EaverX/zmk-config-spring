@@ -59,9 +59,9 @@
 				&kp Q     &kp X     &kp E     &kp R     &kp T    
 				&kp A     &kp S     &kp D     &kp F     &kp G    
 				&kp Z     &kp X     &kp C     &kp V     &kp B    
-				                    &kp I     &kp Y     &kp U    
+				                    &kp I     &kp Y     
 			>;
 		};
-
 	};
 };
+
