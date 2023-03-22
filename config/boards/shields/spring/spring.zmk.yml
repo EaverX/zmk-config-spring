@@ -1,8 +1,8 @@
 file_format: "1"
 id: spring
-name: spring
+name: Spring
 type: shield
-url: https://github.com/EaverX/zmk-config-spring
+url: https://customkbd.com/products/chalice-pre-order
 requires: [pro_micro]
 features:
   - keys
