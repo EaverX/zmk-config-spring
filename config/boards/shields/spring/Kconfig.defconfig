@@ -6,10 +6,6 @@ config ZMK_BLE
 
 config ZMK_USB
 	default y
-
-config ZMK_HID_REPORT_TYPE_HKRO
-	default y
-
 	
 if SHIELD_SPRING
 
