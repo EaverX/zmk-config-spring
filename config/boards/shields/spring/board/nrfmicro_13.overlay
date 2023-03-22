@@ -1,5 +1,3 @@
-#include <dt-bindings/led/led.h>
-
 &spi1 {
   compatible = "nordic,nrf-spim";
   status = "okay";
