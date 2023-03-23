@@ -19,6 +19,25 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        combo_VolUp {
+            bindings = <&kp C_VOL_UP>;
+            key-positions = <58 15 58>;
+        };
+
+        combo_VolDn {
+            bindings = <&kp C_VOL_DN>;
+            key-positions = <58 30>;
+        };
+
+        combo_Mute {
+            bindings = <&kp C_MUTE>;
+            key-positions = <58 0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
