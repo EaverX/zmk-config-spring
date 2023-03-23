@@ -54,8 +54,8 @@
 			//, <&pro_micro 10 GPIO_ACTIVE_HIGH>  // KC5,  <10 0 &gpio1  4 0>	 /* D10/A10 */
 			, <&pro_micro  0 GPIO_ACTIVE_HIGH>  // KC5,  <0  0 &gpio0  8 0>	 /* D0 */
 			, <&pro_micro 18 GPIO_ACTIVE_HIGH>  // KC6,  <18 0 &gpio0  2 0>  /* D18/A0 */
-			//, <&gpio0 5      GPIO_ACTIVE_HIGH>  // KC7
-			, <&gpio0 12     GPIO_ACTIVE_HIGH>  // KC7
+			, <&gpio0 5      GPIO_ACTIVE_HIGH>  // KC7
+			//, <&gpio0 12     GPIO_ACTIVE_HIGH>  // KC7
 			, <&pro_micro  1 GPIO_ACTIVE_HIGH>  // KC8,  <1  0 &gpio0  6 0>	 /* D1 */
 			, <&pro_micro 16 GPIO_ACTIVE_HIGH>  // KC9,  <16 0 &gpio0 28 0>	 /* D16 */
 			, <&gpio0 26     GPIO_ACTIVE_HIGH>  // KC10
