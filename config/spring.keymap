@@ -50,6 +50,7 @@
 &kp LSHFT      &kp Z     &kp X   &kp C      &kp V      &kp B   &kp B   &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH     &kp UP  &kp RSHFT
 &kp LCTRL   &kp LGUI  &kp LALT          &kp SPACE  &kp SPACE                              &mo 1           &kp LEFT   &kp DOWN  &kp RIGHT
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         rgb_layer {
@@ -60,6 +61,7 @@
 &trans  &trans           &trans           &trans           &trans           &trans           &trans           &trans           &trans           &trans          &kp DEL         &commets    &kp C_VOL_UP  &ext_power EP_TOG
 &trans  &trans           &trans                            &trans           &trans                                                              &trans                        &kp C_MUTE    &kp C_VOL_DN             &trans
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         Layer__2 {
@@ -70,6 +72,7 @@
     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
     &trans  &trans  &trans          &trans  &trans                          &trans          &trans  &trans  &trans
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         Layer__3 {
@@ -80,6 +83,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans          &trans  &trans                          &trans          &trans  &trans  &trans
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
     };
 };
