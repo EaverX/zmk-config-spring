@@ -51,7 +51,7 @@
         label = "LEFT_ENCODER";
         a-gpios = <&gpio0 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         b-gpios = <&gpio0 12 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        resolution = <4>;
+        resolution = <1>;
     };
 
     right_encoder: encoder_right {
