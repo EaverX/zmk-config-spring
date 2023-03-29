@@ -12,31 +12,10 @@
 
 / {
     macros {
-        commets: commets {
-            compatible = "zmk,behavior-macro";
-            label = "new_macro";
-            #binding-cells = <0>;
-            bindings = <&sk RCTRL &kp SLASH>;
-        };
     };
 
     combos {
         compatible = "zmk,combos";
-
-        combo_VolUp {
-            bindings = <&kp C_VOL_UP>;
-            key-positions = <58 15 58>;
-        };
-
-        combo_VolDn {
-            bindings = <&kp C_VOL_DN>;
-            key-positions = <58 30>;
-        };
-
-        combo_Mute {
-            bindings = <&kp C_MUTE>;
-            key-positions = <58 0>;
-        };
     };
 
     keymap {
@@ -59,11 +38,11 @@
 &trans  &trans           &kp F1           &kp F2           &kp F3           &kp F4           &kp F5           &kp F6           &kp F7           &kp F8           &kp F9          &kp F10         &kp F11            &kp F12      &kp DEL
 &trans  &trans  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &rgb_ug RGB_SAI  &rgb_ug RGB_SAD  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp PRINTSCREEN  &kp SCROLLLOCK        &kp C_PAUSE  &bootloader
 &trans  &trans           &trans           &trans           &trans           &trans           &trans  &rgb_ug RGB_SPI  &rgb_ug RGB_SPD           &trans           &trans          &kp INS        &kp HOME             &trans
-&trans  &trans           &trans           &trans           &trans           &trans           &trans           &trans           &trans           &trans          &kp DEL         &commets    &kp C_VOL_UP  &ext_power EP_TOG
+&trans  &trans           &trans           &trans           &trans           &trans           &trans           &trans           &trans           &trans          &kp DEL    &kp RC(SLASH)    &kp C_VOL_UP  &ext_power EP_TOG
 &trans  &trans           &trans                            &trans           &trans                                                              &trans                        &kp C_MUTE    &kp C_VOL_DN             &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_BRI_INC C_BRI_DEC>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         bt_layer {
