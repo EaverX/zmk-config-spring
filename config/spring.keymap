@@ -63,7 +63,7 @@
 &trans  &trans           &trans                            &trans           &trans                                                              &trans                        &kp C_MUTE    &kp C_VOL_DN             &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_BRI_INC C_BRI_DEC>;
         };
 
         bt_layer {
