@@ -51,7 +51,7 @@
 &bt BT_PRV        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &bt BT_NXT        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
     &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-    &trans        &trans        &trans                      &trans   &kp A                          &trans          &trans  &trans  &trans
+    &trans        &trans        &trans                      &trans  &trans                          &trans          &trans  &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
